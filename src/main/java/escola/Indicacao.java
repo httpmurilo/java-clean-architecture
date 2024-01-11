@@ -1,5 +1,7 @@
 package escola;
 
+import escola.aluno.Aluno;
+
 import java.time.LocalDateTime;
 
 public class Indicacao {
