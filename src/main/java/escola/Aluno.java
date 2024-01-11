@@ -5,6 +5,12 @@ import java.util.List;
 
 public class Aluno {
 
+    public Aluno(Cpf cpf, String nome, Email email) {
+        this.cpf = cpf;
+        this.nome = nome;
+        this.email = email;
+    }
+
     private Cpf cpf;
     private String nome;
     private Email email;
